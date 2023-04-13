@@ -59,6 +59,10 @@ function pause(){
 
 function reset(){
    clearInterval(timerInterval)
+   decimals = 0
+   seconds = 0
+   minutes = 0
+   hours = 0
    decimalsEl.textContent = 0 
    secondsEl.textContent = 0 + "0"
    minutesEl.textContent = 0 + "0"
