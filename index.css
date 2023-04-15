@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 
 body{
     margin: 0px;
-    font-family: 'Rampart One', cursive;
+    font-family: 'Orbitron', sans-serif;
     background-color: #edf1f4;
     color: black;
 }
 
 #chronometer{
-    margin-top: 20px;
+    margin-top: 50px;
     display:flex;
     flex-direction: column;
 }
@@ -59,7 +59,7 @@ button{
     padding: 25px 42px;
     font-size: 20px;
     cursor: pointer;
-    font-family: 'Rampart One', cursive;
+    font-family: 'Orbitron', sans-serif;
     background-color:#edf1f4 ;
     color: black;
     border:none;
@@ -84,5 +84,5 @@ footer{
     text-align: center;
     padding: 20px;
     font-size: 18px;
-    margin-top: 100px;
+    margin-top: 90px;
 }
