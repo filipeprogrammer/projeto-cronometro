@@ -3,27 +3,34 @@
 body{
     margin: 0px;
     font-family: 'Rampart One', cursive;
-    background-color: black;
-    color: white;
+    background-color: #edf1f4;
+    color: black;
 }
 
 #chronometer{
-    margin-top: 30px;
+    margin-top: 20px;
     display:flex;
     flex-direction: column;
-    height:fit-content;
 }
 
 #title{
     font-size: 45px;
     text-align: center;
     padding: 30px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1),
+    -15px -15px 20px #fffb;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 #display{
+    margin-right: 400px;
+    margin-left: 400px;
     text-align: center;
     padding: 50px;
     font-size: 60px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1),
+    -15px -15px 20px #fffb;
 }
 
 #hours{
@@ -49,23 +56,25 @@ body{
 }
 
 button{
-    padding: 15px 32px;
+    padding: 25px 42px;
     font-size: 20px;
     cursor: pointer;
     font-family: 'Rampart One', cursive;
-    background-color: white;
+    background-color:#edf1f4 ;
     color: black;
-    border: 2px solid black;
+    border:none;
     border-radius: 10px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1),
+    -15px -15px 20px #fffb;
 }
 
 
 #start{
-   
+   margin-right: 30px;
 }
 
 #pause{
-    
+    margin-right: 30px;
 }
 
 #reset{
